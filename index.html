@@ -3,9 +3,90 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <script src="https://kit.fontawesome.com/dab81928ed.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
 </head>
 <body>
     
+    <div class="block-page">
+        <p>In order to play the game please click the start button</p>
+        <a class="block-button" href="#">Start the game</a>
+    </div>
+
+    <header>
+        <h1>Rock Paper Scissors game Against Computer</h1>
+        <p class="game-description"><span class="span-description">Game Description:</span> To make a move, there are three buttons you can click, 
+            these buttons are Rock button, Paper button, and Scissors button. When you click one of these buttons 
+            Computer selects a random move with you. Who wins 5 games, wins the game, too. Good Luck
+        </p>
+
+    </header>
+
+
+    <main>
+        <div class="scores"> 
+            <p>Your score is <span class="playerScore">0</span></p>
+            <p>Computer's score is <span class="computerScore">0</span></p>
+        </div>
+
+        <div class="result-container">
+            <p class="result"></p>
+        </div>
+
+        <div class="container">
+            <div class="player-buttons">
+                <div class="button-container">
+                    <button data-selection="ROCK" class="mouse-over"><i class="fas fa-hand-rock"></i></button>
+                </div>
+                <div class="button-container">
+                    <button data-selection="PAPER" class="mouse-over"><i class="fas fa-hand-paper"></i></button>
+                </div>
+                <div class="button-container">
+                    <button data-selection="SCISSORS" class="mouse-over"><i class="fas fa-hand-scissors"></i></button>
+                </div>  
+            </div> 
+            <div class="computer-buttons">
+                <div class="computer-button">
+                    <div class="ROCK"><i class="far fa-hand-rock"></i></div>
+                </div>
+                <div class="computer-button">
+                    <div class="PAPER"><i class="far fa-hand-paper"></i></div>
+                </div>
+                <div class="computer-button">
+                    <div class="SCISSORS"><i class="far fa-hand-scissors"></i></div>
+                </div>  
+            </div>
+        </div>
+    </main>
+
+   <footer class="footer" id="footer">
+       <a href="#" class="play">Play again</a>
+   </footer>
+
+    <script src="app.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- First Version of rock paper scissors game
+
 
     <script>
 
@@ -98,5 +179,7 @@
         */
 
     </script>
+
+    -->
 </body>
 </html>

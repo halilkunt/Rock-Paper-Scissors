@@ -1,0 +1,179 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+/*---------- Header Styles --------*/
+
+header{
+    margin-top: 2rem;
+}
+
+h1{
+    text-align: center;
+}
+
+.game-description{
+    margin-top: 1em;
+    padding: 2em 4em;
+    text-align: center ;
+    line-height: 1.4em;
+    font-size: 1.2rem;
+}
+
+.span-description{
+    text-decoration: underline;
+    font-size: 1.4rem;
+    font-style: italic;
+}
+
+/* ------- Main Part -------- */
+
+
+.scores{
+   
+   display: flex;
+   justify-content: space-around;
+}
+
+.scores p{
+    padding: 1em 1em 1em 3.5em;
+    margin-right: 2em;
+    font-size: 1.2rem;
+    transition: all 0.7s;
+    color: hsl(36, 100%, 50%);
+}
+
+.scores span{
+    font-size: 2rem;
+    color: gray;
+}
+
+/* -------- Result ----------*/
+
+.result-container{
+    font-size: 1.3rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* --------- Buttons ------------ */
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 4em;
+}
+
+.player-buttons,
+.computer-buttons{
+    display: flex;
+}
+
+button { 
+   margin-right: 1em;
+   border: 1px solid black;
+   outline: none;
+   transition: all 0.4s;
+   cursor: pointer;
+}
+
+
+.mouse-over:hover i{
+    color: red;
+}
+
+
+i{
+    font-size: 100px;
+    padding: 5px;
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.computer-button div{
+    background-color: white;
+    margin-right: 1em;
+    transition: all 0.4s;
+    outline: none;
+}
+
+/* ---------Footer play again button  And Block Screen-------*/
+
+.block-page{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.97);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.block-page p{
+    text-transform: uppercase;
+    font-size: 2rem;
+    margin-bottom: 1em;
+}
+
+footer{
+    visibility: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 1em ;
+}
+
+.block-page a,
+footer a{
+    padding: 10px;
+    background-color: aliceblue;
+    font-size: 2rem;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+
+.block a:hover,
+footer a:hover{
+    background-color: hsl(240, 100%, 70%);
+    color: aliceblue;
+}
+
+/*---------------- Will ne added by js -------------*/
+
+.shine{
+    border-color: yellow;
+    box-shadow: 0 0 10px yellow;
+    transform: scale(1.1);
+}
+
+
+/*------------Colors---------*/
+
+.grey{
+    color: gray;
+}
+
+.red{
+    color: red;
+}
+
+.blue{
+    color: blue;
+}
+
+.yellow{
+    color: yellow;
+}
