@@ -1,0 +1,1 @@
+This project is part of The Odin Project Curriculum. I've spent a few hours to make the game look like that. I did some mistake that I didn't even notice so they took some time to debug. But in the end I don't see any problems in the game if you see let me know. And if you think you would make the code better, I'd like to hear. 
