@@ -82,12 +82,12 @@ button {
    border: 1px solid black;
    outline: none;
    transition: all 0.4s;
-   cursor: pointer;
 }
 
 
 .mouse-over:hover i{
     color: red;
+    cursor: pointer;
 }
 
 
@@ -96,6 +96,7 @@ i{
     padding: 5px;
     color: black;
     transition: all 0.2s ease-in-out;
+    background-color: #f7f7f7;
 }
 
 .computer-button div{
@@ -176,4 +177,16 @@ footer a:hover{
 
 .yellow{
     color: yellow;
+}
+
+
+@media screen and (max-width: 820px){
+    .container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .player-buttons{
+        margin-bottom: 1.5em;
+    }
 }
