@@ -92,7 +92,7 @@ button {
 
 
 i{
-    font-size: 100px;
+    font-size: 7rem;
     padding: 5px;
     color: black;
     transition: all 0.2s ease-in-out;
@@ -104,6 +104,7 @@ i{
     margin-right: 1em;
     transition: all 0.4s;
     outline: none;
+    font-size: 13.3333px;
 }
 
 /* ---------Footer play again button  And Block Screen-------*/
@@ -115,7 +116,7 @@ i{
     position: fixed;
     top: 0;
     left: 0;
-    right: 0;
+    text-align: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -180,6 +181,9 @@ footer a:hover{
 }
 
 
+/* -----------------Responsivene ---------------*/
+
+
 @media screen and (max-width: 820px){
     .container{
         flex-direction: column;
@@ -188,5 +192,28 @@ footer a:hover{
 
     .player-buttons{
         margin-bottom: 1.5em;
+    }
+    html{
+        font-size: 14px;
+    }
+    .game-description {
+        padding: 2em 2em 0 2em;
+    }
+}
+
+
+@media screen and (max-width: 650px){
+    html{
+        font-size: 12px;
+    }
+    .container{
+        margin-top: 2em;
+        margin-bottom:2em;
+    }
+}
+
+@media screen and (max-width: 470px){
+    html{
+        font-size: 10px;
     }
 }
